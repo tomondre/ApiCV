@@ -1,21 +1,21 @@
 [
   {
     "description": "Index page",
-    "link": "http://localhost:9000/"
+    "link": "https://tomas-ondrejka.herokuapp.com/"
   }, {
     "description": "Projects",
-    "link": "http://localhost:9000/projects"
+    "link": "https://tomas-ondrejka.herokuapp.com/projects"
   },
   {
     "description": "Education",
-    "link": "http://localhost:9000/education"
+    "link": "https://tomas-ondrejka.herokuapp.com/education"
   },
   {
     "description": "Work History",
-    "link": "http://localhost:9000/jobs"
+    "link": "https://tomas-ondrejka.herokuapp.com/jobs"
   },
   {
     "description": "Links",
-    "link": "http://localhost:9000/links"
+    "link": "https://tomas-ondrejka.herokuapp.com/links"
   }
 ]
