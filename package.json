@@ -10,11 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.24.0",
-    "cheerio": "^1.0.0-rc.10",
     "express": "^4.17.1",
     "fs": "^0.0.1-security",
-    "jquery": "^3.6.0",
     "nodemon": "^2.0.15"
   }
 }

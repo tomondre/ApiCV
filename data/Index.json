@@ -1,4 +1,4 @@
 {
-  "Greeting" : "Hello and welcome on my API cv",
-  "Recommendation" : "Use Google Chrome json viewer or alternative for better json readability"
+  "Attention!" : "Use Google Chrome json viewer or alternative for better json readability",
+  "Greeting" : "Hello and welcome on my API CV. CV is made with JavaScript - Express.js and Node.js File System. If you want to redirect between the pages, there are navigation links after the content."
 }

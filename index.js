@@ -14,7 +14,6 @@ app.get("/education", (req, res) => {
 
 app.get("/jobs", (req, res) => {
     displaySite("data/WorkHistory.json", (json) => res.json(json));
-
 });
 
 app.get("/projects", (req, res) => {
