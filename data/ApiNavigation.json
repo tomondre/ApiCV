@@ -1,0 +1,21 @@
+[
+  {
+    "description": "Index page",
+    "link": "http://localhost:9000/"
+  }, {
+    "description": "Projects",
+    "link": "http://localhost:9000/projects"
+  },
+  {
+    "description": "Education",
+    "link": "http://localhost:9000/education"
+  },
+  {
+    "description": "Work History",
+    "link": "http://localhost:9000/jobs"
+  },
+  {
+    "description": "Links",
+    "link": "http://localhost:9000/links"
+  }
+]

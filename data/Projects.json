@@ -1,0 +1,223 @@
+[
+  {
+    "name": "Eye Exercises",
+    "description": "TrainYourEyes.dk is a danish company specialized in vision training courses. The company's main objective is to research and apply visual training on its customers. The exercises have been developed for these customers with vision problems. Each exercise is divided into many levels and difficulties to ensure maximum effectiveness when training the eyes. During the gameplay, only one eye is used by customers. After the daily training time per eye is passed, the exercises advise customer to change eyes and continues with other eye. Because the defects of eyes are different, customer can choose time length per each eye as advised from the visual practitioner.",
+    "orderDate": "31.5.2021",
+    "finalDate": "On Contract",
+    "status": "In Progress",
+    "client": "TrainYourEyes.dk",
+    "location": {
+      "city": "Vejle",
+      "country": "Denmark"
+    },
+    "technologies": [
+      {
+        "technology": "HTML"
+      },
+      {
+        "technology": "ES6 JavaScript"
+      },
+      {
+        "technology": "Phaser Game Development Framework"
+      },
+      {
+        "technology": "p5.js"
+      },
+      {
+        "technology": "Parcel-Bundler"
+      }
+    ],
+    "links": [
+      {
+        "description": "Portfolio Page",
+        "link": "https://tomondre.github.io./html/Pages/projects/EyeExercises.html"
+      }
+    ]
+  },
+  {
+    "name": "Rabatoo",
+    "description": "Due to the ease of post-pandemic restrictions, the demand for experience based products is on the rise. As e-commerce (online shopping) becomes an even bigger part of the average person’s shopping experience, the role of comparison websites will only increase.(Huntley, 2020) Currently each provider offers their services on a personal platform which makes it inconvenient and not diverse. The customers have to search and go through each experience provider website to find, compare and book the right offer. A platform collecting multiple providers is beneficial to both companies and customers. The companies get access to a broad spectrum of clients and the customers will get diversity and price comparison.",
+    "orderDate": "1.9.2021",
+    "finalDate": "17.12.2021",
+    "status": "In Progress",
+    "client": "Via University College",
+    "location": {
+      "city": "Horsens",
+      "country": "Denmark"
+    },
+    "technologies": [
+      {
+        "technology": "C#"
+      },
+      {
+        "technology": "Java"
+      },
+      {
+        "technology": "TailWind"
+      },
+      {
+        "technology": "Blazor Server App"
+      },
+      {
+        "technology": "REST API"
+      },
+      {
+        "technology": "gRPC"
+      },
+      {
+        "technology": "PostgreSQL"
+      },
+      {
+        "technology": "Stripe API"
+      }
+    ],
+    "links": [
+      {
+        "description": "Github Repository",
+        "link": "https://github.com/tomondre/SEP3"
+      },
+      {
+        "description": "Portfolio Page",
+        "link": "https://tomondre.github.io./html/Pages/projects/Rabatoo.html"
+      }
+    ]
+  },
+  {
+    "name": "Skrabmig.dk e-commerce website",
+    "description": "Fully integrated e-commerce one product website with working payment gates. WordPress platform has been used for building the website. Layout is modelled with Elementor plug-in. The delivery is customised based on the customers address and payment is handled with PayPal and Stripe for Credit Cards.",
+    "orderDate": "26.4.2020",
+    "finalDate": "2.5.2020",
+    "status": "Finished",
+    "client": "Tomas Ondrejka",
+    "location": {
+      "city": "Horsens",
+      "country": "Denmark"
+    },
+    "technologies": [
+      {
+        "technology": "WordPress"
+      },
+      {
+        "technology": "WooCommerce"
+      },
+      {
+        "technology": "Stripe"
+      }
+    ],
+    "links": [
+      {
+        "description": "Page",
+        "link": "https://skrabmig.dk/"
+      },
+      {
+        "description": "Portfolio Page",
+        "link": "https://tomondre.github.io./html/Pages/projects/Skrabmig.html"
+      }
+    ]
+  },
+  {
+    "name": "3D printer",
+    "description": "In the year 2020 I attend high school competition named SOČ (Stredoškolská odborná činnosť). My goal was to build 3D printer from cheap electronics from China, used rods from other 2D printers and printed parts. MainBoard is Arduino with Ramps 1.4 shield which is the cheapest alternative. I achieved my goal and after it, I added Raspberry Pi and Octoprint. Nowadays I can control every aspect of 3D printing remotely through internet. Also, I added relay controls to control PSU and LED lights through Octoprint. I have gained a lot of experience in building 3D printers, their maintaining, modeling in 3D Cad Softwares, and printing itself. With this project I won first place in school round, district round and third place in the regional round. I want to deal with 3D printing in the future as a hobby or as work because I see it as a future of almost every industry.",
+    "orderDate": "3.9.2018",
+    "finalDate": "26.6.2020",
+    "status": "Finished",
+    "client": "High School of IT",
+    "location": {
+      "city": "Kysucké Nové Mesto",
+      "country": "Slovakia"
+    },
+    "technologies": [
+      {
+        "technology": "Arduino"
+      },
+      {
+        "technology": "C++"
+      },
+      {
+        "technology": "Marlin"
+      }
+    ],
+    "links": [
+      {
+        "description": "Portfolio Page",
+        "link": "https://tomondre.github.io./html/Pages/projects/3DPrinter.html"
+      }
+    ]
+  },
+  {
+    "name": "Hospital Management System",
+    "description": "The developed system is a server-client based application that allows multiple users to access and manage the same data. The data is stored in an external database run on a cloud. It is challenging for a hospital to handle the daily tasks without having a structured and easy way to get an overview of the workload. Therefore, the goal of this project is to build a digital management system that is user-friendly, efficient, and easy to maintain. This digital management system is not just a simple client-server system designed specifically only for the client’s needs. The system allows multiple users to interact with the data and manipulate the database. The database is stored and run on a cloud. The system has been analysed, designed, implemented and tested in a group work with people from different cultural backgrounds. The system have been designed using SCRUM and UP frameworks.",
+    "orderDate": "8.2.2021",
+    "finalDate": "31.5.2021",
+    "status": "Finished",
+    "client": "Via University College",
+    "location": {
+      "city": "Horsens",
+      "country": "Denmark"
+    },
+    "technologies": [
+      {
+        "technology": "Java"
+      },
+      {
+        "technology": "PostreSQL"
+      },
+      {
+        "technology": "JavaFX"
+      }
+    ],
+    "links": [
+      {
+        "description": "Github Repository",
+        "link": "https://github.com/KhaledHammoun/DHMS_SEP2"
+      },
+      {
+        "description": "Portfolio Page",
+        "link": "https://tomondre.github.io./html/Pages/projects/HospitalManagementSystem.html"
+      }
+    ]
+  },
+  {
+    "name": "Project Management System",
+    "description": "It is challenging for a company to handle the daily tasks without having a structured and an easy way to get an overview over the workload. Therefore, the goal of this project is to build a project management system that is user friendly, efficient, and easy to maintain. This project management system is not just a simple stand-alone application designed specifically only for the client’s needs. It is an application that can be easily adapted to multiple companies, making it affordable to maintain and update. If the client wants extra functionalities or changes in aspects of the system, those changes can be adapted to the existing source code of the system. The system has been analysed, designed, implemented and tested in a group work with people from different cultural backgrounds. The system have been deigned using Waterfall Methodology.",
+    "orderDate": "31.8.2020",
+    "finalDate": "25.12.2020",
+    "status": "Finished",
+    "client": "Via University College",
+    "location": {
+      "city": "Horsens",
+      "country": "Denmark"
+    },
+    "technologies": [
+      {
+        "technology": "Java"
+      },
+      {
+        "technology": "JavaScript"
+      },
+      {
+        "technology": "JavaFX"
+      },
+      {
+        "technology": "HTML"
+      },
+      {
+        "technology": "CSS"
+      }
+    ],
+    "links": [
+      {
+        "description": "Project Website Github Repository",
+        "link": "https://github.com/tomondre/ColourITWebPage"
+      },
+      {
+        "description": "Project Backend Github Repository",
+        "link": "https://github.com/tomondre/SEP1"
+      },
+      {
+        "description": "Portfolio Page",
+        "link": "https://tomondre.github.io./html/Pages/projects/ProjectManagementSystem.html"
+      }
+    ]
+  }
+]

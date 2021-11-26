@@ -1,0 +1,66 @@
+[
+  {
+    "school": "VIA University College",
+    "fieldOfStudy": "Software Technology Engineering",
+    "startYear": 2020,
+    "finishYear": 2023,
+    "degree": "Bachelor's degree",
+    "location" : {
+      "city": "Horsens",
+      "country" : "Denmark"
+    },
+    "activities": [
+      {
+        "activity": "Language Center midst, Horsens (Sprogcenter Midt, Horsens)"
+      },
+      {
+        "activity": "AIESEC in Denmark"
+      },
+      {
+        "activity": "Helping other students with their studies"
+      }
+    ],
+    "links": [
+      {
+        "description": "Aiesec In Denmark meeting",
+        "link": "https://www.linkedin.com/feed/update/urn:li:activity:6733028474589589504/"
+      }
+    ]
+  },
+  {
+    "school": "High school of Information Technologies",
+    "fieldOfStudy": "Mechatronics, Robotics, and Automation Engineering",
+    "startYear": 2016,
+    "finishYear": 2020,
+    "location" : {
+      "city": "Kysucké Nové Mesto",
+      "country" : "Slovakia"
+    },
+    "degree": "High School Diploma",
+    "activities": [
+      {
+        "activity": "Successful participation in robotics competitions in Czech and Slovak Republic"
+      },
+      {
+        "activity": "Representing the school in many sports competitions successfully"
+      },
+      {
+        "activity": "Received Headmaster's award"
+      }
+    ],
+    "links": [
+      {
+        "description": "3D printer project",
+        "link": "https://www.linkedin.com/pulse/3d-printer-tomas-ondrejka/"
+      },
+      {
+        "description": "Head Master award",
+        "link": "https://tomondre.github.io./html/Pages/files/HeadmasterAwardTomasOndrejka.pdf"
+      },
+      {
+        "description": "Diploma",
+        "link": "https://tomondre.github.io./html/Pages/files/DiplomeTomasOndrejka.pdf"
+      }
+    ]
+  }
+]

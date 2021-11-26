@@ -1,0 +1,64 @@
+[
+  {
+    "position": "JavaScript Game Developer",
+    "company": "TrainYourEyes.dk",
+    "employmentType": "Part-time",
+    "start": {
+      "month": "May",
+      "year": 2021
+    },
+    "current": true,
+    "end": {
+      "month": null,
+      "year": null
+    },
+    "location": {
+      "city": "Vejle",
+      "country": "Denmark"
+    },
+    "responsibilities": [
+      {
+        "responsibility": "Creating exercises with Npm manager and p5 or Phaser libraries in modern ES6 JavaScript"
+      },
+      {
+        "responsibility": "WebPage maintenance"
+      }
+    ],
+    "links": [
+      {
+        "description": "Exercises",
+        "link": "https://tomondre.github.io./html/Pages/projects/EyeExercises.html"
+      }
+    ]
+  },
+  {
+    "position": "Warehouse specialist",
+    "company": "Reitan Distribution A/S",
+    "employmentType": "Part-time",
+    "start": {
+      "month": "August",
+      "year": 2020
+    },
+    "current": true,
+    "end": {
+      "month": null,
+      "year": null
+    },
+    "location": {
+      "city": "Horses",
+      "country": "Denmark"
+    },
+    "responsibilities": [
+      {
+        "responsibility": "Operating forklift"
+      },
+      {
+        "responsibility": "Preparing and completing orders"
+      },
+      {
+        "responsibility": "Picking up goods"
+      }
+    ],
+    "links": []
+  }
+]
