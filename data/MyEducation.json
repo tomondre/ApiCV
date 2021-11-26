@@ -4,6 +4,7 @@
     "fieldOfStudy": "Software Technology Engineering",
     "startYear": 2020,
     "finishYear": 2023,
+    "current": true,
     "degree": "Bachelor's degree",
     "location" : {
       "city": "Horsens",
@@ -32,6 +33,7 @@
     "fieldOfStudy": "Mechatronics, Robotics, and Automation Engineering",
     "startYear": 2016,
     "finishYear": 2020,
+    "current": false,
     "location" : {
       "city": "Kysucké Nové Mesto",
       "country" : "Slovakia"
