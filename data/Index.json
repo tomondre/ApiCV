@@ -1,4 +1,5 @@
 {
   "Attention!" : "Use Google Chrome json viewer or alternative for better json readability",
-  "Greeting" : "Hello and welcome on my API CV. CV is made with JavaScript - Express.js and Node.js File System. If you want to redirect between the pages, there are navigation links after the content."
+  "ViewerLink" : "https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh",
+  "Greeting" : "Hello and welcome on my API. This CV is made with JavaScript - Express.js and Node.js File System. If you want to switch between the pages, there are navigation links after the content."
 }
