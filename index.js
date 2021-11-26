@@ -38,11 +38,10 @@ function displaySite(jsonLink, callback) {
                 return;
             }
             let navigation = JSON.parse(navigationData.toString())
-            let information = JSON.parse(data.toString());
-            callback({information, navigation});
+            let content = JSON.parse(data.toString());
+            callback({content, navigation});
         });
     });
 }
-
 
 app.listen(PORT, ()=> console.log("Server running on port " + PORT));
