@@ -1,5 +1,5 @@
 {
-  "Attention!" : "Use Google Chrome json viewer or alternative for better json readability",
+  "Attention!" : "USE GOOGLE CHROME JSON VIEWER OR ALTERNATIVE FOR EASIER READABILITY",
   "ViewerLink" : "https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh",
   "Greeting" : "Hello and welcome on my API. This CV is made with JavaScript - Express.js and Node.js File System. If you want to switch between the pages, there are navigation links after the content. I have seen many creative CVs from programmers but for some reason, none of them was made as an API so here goes my creative version of CV. :)"
 }
