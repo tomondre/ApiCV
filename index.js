@@ -1,28 +1,17 @@
 const PORT = process.env.PORT || 9000;
 const express = require('express');
 const fs = require('fs');
-
 const app = express();
+const swaggerUI = require("swagger-ui-express");
+const swaggerJsDoc = require("swagger-jsdoc");
 
-app.get("/", (req, res) => {
-    displaySite("data/Index.json", "Index", (json) => res.json(json));
-});
+const educationRouter = require("./routes/education/Education");
+const indexRouter = require("./routes/index/Index");
+const jobsRouter = require("./routes/jobs/Jobs");
+const linksRouter = require("./routes/links/Links");
+const projectsRouter = require("./routes/projects/Projects");
 
-app.get("/education", (req, res) => {
-    displaySite("data/MyEducation.json", "Education", (json) => res.json(json));
-});
-
-app.get("/jobs", (req, res) => {
-    displaySite("data/WorkHistory.json","Work History", (json) => res.json(json));
-});
-
-app.get("/projects", (req, res) => {
-    displaySite("data/Projects.json", "Projects",(json) => res.json(json));
-});
-
-app.get("/links", (req, res) => {
-    displaySite("data/Links.json", "Links", (json) => res.json(json));
-});
+app.displaySite = displaySite.bind(this);
 
 function displaySite(jsonLink, t, callback) {
     fs.readFile("data/ApiNavigation.json", (err, navigationData)=>{
@@ -45,4 +34,36 @@ function displaySite(jsonLink, t, callback) {
     });
 }
 
+app.use("/", indexRouter);
+app.use("/education", educationRouter);
+app.use("/jobs", jobsRouter);
+app.use("/links", linksRouter);
+app.use("/projects", projectsRouter);
+
 app.listen(PORT, () => console.log("Server running on port " + PORT));
+
+
+const options = {
+    definition: {
+        openapi: "3.0.0",
+        info: {
+            title: "Portfolio API",
+            version: "1.0.0",
+            description: "Portfolio API"
+        },
+        server: [{
+            url: "https://tomas-ondrejka.herokuapp.com/"
+        }],
+    },
+    apis: [
+        "./routes/index/*.js",
+        "./routes/education/*.js",
+        "./routes/projects/*.js",
+        "./routes/jobs/*.js",
+        "./routes/links/*.js",
+    ]
+};
+
+const specs = swaggerJsDoc(options);
+
+app.use("/docs", swaggerUI.serve, swaggerUI.setup(specs))
