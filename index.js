@@ -52,7 +52,7 @@ const options = {
             description: "Portfolio API"
         },
         server: [{
-            url: "https://tomas-ondrejka.herokuapp.com/"
+            url: "http://api-cv.tomondre.com/"
         }],
     },
     apis: [

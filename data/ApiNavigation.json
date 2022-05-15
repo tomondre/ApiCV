@@ -1,21 +1,21 @@
 [
   {
     "description": "Index page",
-    "link": "https://tomas-ondrejka.herokuapp.com/"
+    "link": "http://api-cv.tomondre.com/"
   }, {
     "description": "Projects",
-    "link": "https://tomas-ondrejka.herokuapp.com/projects"
+    "link": "http://api-cv.tomondre.com/projects"
   },
   {
     "description": "Education",
-    "link": "https://tomas-ondrejka.herokuapp.com/education"
+    "link": "http://api-cv.tomondre.com/education"
   },
   {
     "description": "Work History",
-    "link": "https://tomas-ondrejka.herokuapp.com/jobs"
+    "link": "http://api-cv.tomondre.com/jobs"
   },
   {
     "description": "Links",
-    "link": "https://tomas-ondrejka.herokuapp.com/links"
+    "link": "http://api-cv.tomondre.com/links"
   }
 ]
