@@ -1,4 +1,4 @@
-const express = require("express");
+import express from "express";
 const router = express.Router();
 
 /**
@@ -13,7 +13,7 @@ const router = express.Router();
  */
 
 router.get("/", (req, res) => {
-    req.app.displaySite("data/WorkHistory.json","Work History", (json) => res.json(json));
+    req.app.displaySite("workExperiences","Work Experience", (json) => res.json(json));
 });
 
-module.exports = router;
+export default router;

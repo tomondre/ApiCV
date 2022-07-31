@@ -1,42 +1,66 @@
-const PORT = process.env.PORT || 9000;
-const express = require('express');
-const fs = require('fs');
-const app = express();
-const swaggerUI = require("swagger-ui-express");
-const swaggerJsDoc = require("swagger-jsdoc");
+import express from "express";
+import {promises as fs} from "fs";
+import swaggerUI from "swagger-ui-express";
+import swaggerJsDoc from "swagger-jsdoc";
+import fetch from 'node-fetch';
 
-const educationRouter = require("./routes/education/Education");
-const indexRouter = require("./routes/index/Index");
-const jobsRouter = require("./routes/jobs/Jobs");
-const linksRouter = require("./routes/links/Links");
-const projectsRouter = require("./routes/projects/Projects");
+import educationRouter from "./routes/education/Education.js";
+import indexRouter from "./routes/index/Index.js";
+import jobsRouter from "./routes/jobs/Jobs.js";
+import linksRouter from "./routes/links/Links.js";
+import projectsRouter from "./routes/projects/Projects.js";
+
+const PORT = process.env.PORT || 9000;
+const HOST = process.env.HOST || "httxp://localhost:9000/";
+const API_URL = process.env.API_URL || "https://api.tomondre.com/";
+
+const app = express();
 
 app.displaySite = displaySite.bind(this);
 
-function displaySite(jsonLink, t, callback) {
-    fs.readFile("data/ApiNavigation.json", (err, navigationData)=>{
-        if (err)
-        {
-            console.error(err);
-            return;
-        }
-        fs.readFile(jsonLink, (err, data)=>{
-            if (err)
-            {
-                console.error(err);
-                return;
-            }
-            let title = t;
-            let navigation = JSON.parse(navigationData.toString())
-            let content = JSON.parse(data.toString());
-            callback({title, content, navigation});
+function getNavigation() {
+    let map = new Map([
+        ["Index" , ""],
+        ["Education" , "education"],
+        ["Work Experience" , "workExperience"],
+        ["Projects" , "projects"],
+        ["Links" , "links"],
+    ]);
+
+    let navigation = [];
+
+    map.forEach((value, key)=>{
+        navigation.push({
+            description: key,
+            url: `${HOST}${value}`
         });
     });
+
+    return navigation;
+}
+
+async function displaySite(url, title, callback) {
+    let content;
+
+    if (url === "") {
+        let newVar = await fs.readFile("./data/Index.json");
+        content = JSON.parse(newVar.toString());
+    } else {
+        content = await getContent(url);
+    }
+
+    let result = {title, content: content, navigation: getNavigation()};
+    callback(result);
+}
+
+async function getContent(url) {
+    let response = await fetch(`${API_URL}${url}`);
+    return response.json();
 }
 
 app.use("/", indexRouter);
 app.use("/education", educationRouter);
-app.use("/jobs", jobsRouter);
+app.use("/workExperience", jobsRouter);
 app.use("/links", linksRouter);
 app.use("/projects", projectsRouter);
 

@@ -1,4 +1,5 @@
-const express = require("express");
+import express from "express";
+
 const router = express.Router();
 
 /**
@@ -13,7 +14,7 @@ const router = express.Router();
  */
 
 router.get("/", (req, res) => {
-    req.app.displaySite("data/MyEducation.json", "education", (json) => res.json(json));
+    req.app.displaySite("educations", "Education", (json) => res.json(json));
 });
 
-module.exports = router;
+export default router;
